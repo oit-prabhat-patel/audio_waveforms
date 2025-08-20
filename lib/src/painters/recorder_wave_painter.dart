@@ -204,7 +204,7 @@ class RecorderWavePainter extends CustomPainter {
     final height = size.height;
     final dx =
         -totalBackDistance.dx + dragOffset.dx + (spacing * i) - initialPosition + size.width;
-    final scaledWaveHeight = waveData[i] * scaleFactor;
+    final scaledWaveHeight = waveData[i] * scaleFactor + 4;
     final upperDy = height - (showTop ? scaledWaveHeight : 0) - bottomPadding;
     final lowerDy =
         height + (showBottom ? scaledWaveHeight : 0) - bottomPadding;
