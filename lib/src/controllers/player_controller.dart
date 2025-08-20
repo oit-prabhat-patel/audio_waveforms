@@ -55,7 +55,7 @@ class PlayerController extends ChangeNotifier {
   ///
   /// See also:
   /// * [UpdateFrequency]
-  UpdateFrequency updateFrequency = UpdateFrequency.low;
+  UpdateFrequency updateFrequency = UpdateFrequency.high;
 
   /// IOS only.
   ///
