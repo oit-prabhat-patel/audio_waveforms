@@ -25,5 +25,5 @@ flutter:
         package: com.simform.audio_waveforms
         pluginClass: AudioWaveformsPlugin
       ios:
-        pluginClass: AudioWaveformsPlugin
+        pluginClass: SwiftAudioWaveformsPlugin
 
